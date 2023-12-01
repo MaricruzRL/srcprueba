@@ -274,6 +274,7 @@ const Tablaevaluacionreporte = (props) => {
           realizado
         </h1>
       </div>
+      <div className="contenido_general">
       <div className="informacion__tabla">
         <table border="1">
           <thead>
@@ -395,7 +396,7 @@ const Tablaevaluacionreporte = (props) => {
           </tbody>
         </table>
       </div>
-
+    </div>
       {/* AQUI SE MUESTRAN LAS EVALUACIONES  */}
 
       {selectedItem && (
