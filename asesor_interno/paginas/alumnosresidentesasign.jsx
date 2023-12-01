@@ -128,7 +128,7 @@ const AlumnosResidentesAsign = (props) => {
           <th>Nombre</th>
           <th>Nombre de Anteproyecto</th>
           <th>Nombre de documento</th>
-          <th>Esatado</th>
+          <th>Estado</th>
           <th>Carrera</th>
           <th>Acciones</th>
         </tr>

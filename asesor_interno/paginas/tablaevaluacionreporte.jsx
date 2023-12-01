@@ -270,7 +270,7 @@ const Tablaevaluacionreporte = (props) => {
       <div className="Anteproyectosubir__titulo">
         <h1>¡Bienvenido Aseror Tecnm!</h1>
         <h1>
-          En este apartado tu podras visualisar las evaluaciones que ha
+          En este apartado tu podras visualizar las evaluaciones que ha
           realizado
         </h1>
       </div>
@@ -278,8 +278,8 @@ const Tablaevaluacionreporte = (props) => {
         <table border="1">
           <thead>
             <tr>
-              <th>EVALUACION DE REPORTE FINAL DE RESIDENCIA PROFESIONAL</th>
-              <th>Calificaion</th>
+              <th>EVALUACIÓN DE REPORTE FINAL DE RESIDENCIA PROFESIONAL</th>
+              <th>Calificación</th>
               <th>Acciones</th>
             </tr>
           </thead>
@@ -320,7 +320,7 @@ const Tablaevaluacionreporte = (props) => {
                                 className="btn-asig"
                                 onClick={() => handleCrearClick(item)}
                               >
-                                Imprimir Evaluacion Interna
+                                Imprimir Evaluación Interna
                               </button>
                             </tr>
                           )}
@@ -340,7 +340,7 @@ const Tablaevaluacionreporte = (props) => {
           <thead>
             <tr>
               <th>EVALUACION Y SEGUIMIENTO DE RESIDENCIA PROFESIONAL</th>
-              <th>Calificaion</th>
+              <th>Calificación</th>
               <th>Acciones</th>
             </tr>
           </thead>
@@ -381,7 +381,7 @@ const Tablaevaluacionreporte = (props) => {
                                 className="btn-asig"
                                 onClick={() => handleCrearClick2(item)}
                               >
-                                Imprimir Evaluacion Interna
+                                Imprimir Evaluación Interna
                               </button>
                             </tr>
                           )}
@@ -427,7 +427,7 @@ const Tablaevaluacionreporte = (props) => {
                     <br />
                     "Por una Tecnología Propia como principio de libertad"
                     <br />
-                    EVALUACION Y SEGUIMIENTO DE RESIDENCIA
+                    EVALUACIÓN Y SEGUIMIENTO DE RESIDENCIA
                     <br />
                     PROFESIONAL
                   </td>
@@ -453,7 +453,7 @@ const Tablaevaluacionreporte = (props) => {
                 Nombre del Residente: {selectedItem.attributes.nombre}{" "}
               </p>
               <p style={{ textAlign: "left" }}>
-                Numero de control: {selectedItem.attributes.ncontrol}
+                Número de control: {selectedItem.attributes.ncontrol}
               </p>
               <p style={{ textAlign: "left" }}>
                 Nombre del Proyecto:{" "}
@@ -463,7 +463,7 @@ const Tablaevaluacionreporte = (props) => {
                 Programa Educativo: {selectedItem.attributes.carrera}
               </p>
               <p style={{ textAlign: "left" }}>
-                Periodo de realizacion de la residencia profesional:
+                Periodo de realización de la residencia profesional:
                 {selectedItem.attributes.periodo}{" "}
               </p>
               <p style={{ textAlign: "left" }}>
@@ -493,7 +493,7 @@ const Tablaevaluacionreporte = (props) => {
 
                             <th>Criterios a evaluar </th>
                             <th>Valor</th>
-                            <th>Evaluacion</th>
+                            <th>Evaluación</th>
 
                             {criteriosAEvaluar.map((criterio, index) => (
                               <tr key={`dato${index + 1}`}>
@@ -579,7 +579,7 @@ const Tablaevaluacionreporte = (props) => {
                       <br />
                       <br />
                       <br />
-                      Fecha de evaluacion
+                      Fecha de evaluación
                     </p>
                   </td>
                 </tr>
@@ -616,7 +616,7 @@ const Tablaevaluacionreporte = (props) => {
                     <br />
                     "Por una Tecnología Propia como principio de libertad"
                     <br />
-                    EVALUACION Y SEGUIMIENTO DE RESIDENCIA
+                    EVALUACIÓN Y SEGUIMIENTO DE RESIDENCIA
                     <br />
                     PROFESIONAL
                   </td>
@@ -642,7 +642,7 @@ const Tablaevaluacionreporte = (props) => {
                 Nombre del Residente: {selectedItem2.attributes.nombre}{" "}
               </p>
               <p style={{ textAlign: "left" }}>
-                Numero de control: {selectedItem2.attributes.ncontrol}
+                Número de control: {selectedItem2.attributes.ncontrol}
               </p>
               <p style={{ textAlign: "left" }}>
                 Nombre del Proyecto:{" "}
@@ -682,7 +682,7 @@ const Tablaevaluacionreporte = (props) => {
 
                             <th>Criterios a evaluar </th>
                             <th>Valor</th>
-                            <th>Evaluacion</th>
+                            <th>Evaluación</th>
 
                             {criteriosAEvaluar2.map((criterio, index) => (
                               <tr key={`dato${index + 1}`}>
@@ -768,7 +768,7 @@ const Tablaevaluacionreporte = (props) => {
                       <br />
                       <br />
                       <br />
-                      Fecha de evaluacion
+                      Fecha de evaluación
                     </p>
                   </td>
                 </tr>

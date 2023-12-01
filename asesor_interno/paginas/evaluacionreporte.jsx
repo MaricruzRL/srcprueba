@@ -699,7 +699,7 @@ const Evalucionreporteresidente = (props) => {
                 setNewItem({ ...newItem, nombre_anteproyecto: e.target.value })
               }
             ></input>
-            <span>Periodo de Realizacion:</span>
+            <span>Periodo de Realización:</span>
             <input
               type="text"
               name="name"
@@ -710,7 +710,7 @@ const Evalucionreporteresidente = (props) => {
             ></input>
           </div>
           <div className="informacion__pregunta">
-            <span>Numero de Control:</span>
+            <span>Número de Control:</span>
             <input
               type="text"
               name="name"
@@ -788,7 +788,7 @@ const Evalucionreporteresidente = (props) => {
       
 
       <button className="btn-asig" onClick={handleCrearClick}>
-        Imprimir Evaluacion
+        Imprimir Evaluación
       </button>
 {data &&
   data.data
@@ -823,7 +823,7 @@ const Evalucionreporteresidente = (props) => {
           }
         }}
       >
-        Registrar Evaluacion
+        Registrar Evaluación
       </button>
       
       )
@@ -851,7 +851,7 @@ const Evalucionreporteresidente = (props) => {
                     <br />
                     "Por una Tecnología Propia como principio de libertad"
                     <br />
-                    EVALUACION  DE REPORTE FINAL DE  RESIDENCIA PROFESIONAL
+                    EVALUACIÓN  DE REPORTE FINAL DE  RESIDENCIA PROFESIONAL
                     <br />
                     PROFESIONAL
                   </td>
@@ -884,7 +884,7 @@ const Evalucionreporteresidente = (props) => {
               Programa Educativo: {newItem.carrera}
             </p>
             <p style={{ textAlign: "left" }}>
-              Periodo de realizacion de la residencia profesional:
+              Periodo de realización de la residencia profesional:
               {newItem.periodo}{" "}
             </p>
             <p style={{ textAlign: "left" }}>
@@ -934,7 +934,7 @@ const Evalucionreporteresidente = (props) => {
                       <br />
                       <br />
                       <br />
-                      Fecha de evaluacion
+                      Fecha de evaluación
                     </p>
                   </td>
                 </tr>

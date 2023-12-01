@@ -2,18 +2,18 @@
   /* Estilos para la versión de impresión */
   @media print {
     @page {
-      margin: 0;
+      margin: 0.8cm;
       border: 0;
       padding: 0;
       size: 29.7cm 21cm;
     }
   
     body * {
-      margin: 5;
+      margin: 0;
       visibility: hidden;
       overflow-y: visible;
-      font-size: 6px;
-      
+      font-size: 16px;
+  
     }
     .externohorizontal, .externohorizontal * {
       visibility: visible;

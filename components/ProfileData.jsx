@@ -13,6 +13,7 @@ export const ProfileData = (props) => {
 
   if (props.graphData.jobTitle === "Estudiante") {
     // Realiza la navegación a la ruta "/home" si el jobTitle es "Estudiante"
+    // Jefe De Departamento
     return (
         <Router>
       <div>
@@ -20,8 +21,7 @@ export const ProfileData = (props) => {
       {/*<PaginaEstu graphData={props}/>*/}
       {/*<PaginaCor graphData={props}/>*/}
       {/*<PaginaAsesorInterno graphData={props} />*/}
-      <PaginaJefeCarrera graphData={props} />
-
+      <PaginaAsesorInterno graphData={props} />      
       </div>
     </Router>
       );

@@ -118,7 +118,7 @@
 }
 
 .perfil h1 {
-  font-size: 1vw;
+  font-size: 0.7vw;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin-left: 1vw;
@@ -144,6 +144,9 @@
   margin: 0vw 3vw 0 3vw;
   border-radius: 3rem;
   margin-top: 1.5vw;
+  overflow-y: auto;
+
+
 
 }
 .contenido__fondo{
@@ -247,10 +250,16 @@
   overflow: auto;
   /* Agrega scroll si el contenido excede el espacio */
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
 .tablita{
   position: relative;
   flex-grow: 1;
 }
+
+
 .tablita::before {
   content: "";
   background-image: url('./estilos/img/itilogo.png');
@@ -393,7 +402,10 @@
 }
 
 
+.informacion{
+  overflow-y: auto;
 
+}
 
 .informacion__tabla {
   display: flex;
@@ -402,7 +414,9 @@
   height: min-content;
   align-items: center;
   justify-content: space-around;
-  padding: 2vw;
+  padding: 1vw;
+
+  
 }
 
 .informacion__tabla table {
@@ -693,13 +707,14 @@
     }
 
     .btn-asig{
-      font-size: 1vw;
+      font-size: 0.7vw;
       background-color: #1a3968;
       margin: 0.5vw auto;
       cursor: pointer;
       color:white;
       border-radius: 0.9vw;   
       padding: 1vw; 
+
     }
 
       .textarea{
@@ -829,6 +844,7 @@
   color: white;
   
 }
+
 
 
 

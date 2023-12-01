@@ -49,6 +49,13 @@
     width: 100%; /* Hace que el recuadro sea adaptable */
     height: 50vh;
     box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 2vw;
+    border-radius: 1vw;
+
   }
   
   
@@ -106,9 +113,13 @@ height: auto;
 .imagen-contenedor {
     width: 50%; /* Ajusta el ancho según sea necesario */
     height: 10vh; /* Mantiene la proporción de aspecto */
-    border: 2px solid #333; /* Ejemplo de borde */
-    border-radius: 8px; /* Ejemplo de bordes redondeados */
     /* Agrega más estilos según sea necesario */
+  }
+  .titulologin{
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+  justify-content: center;
   }
 
   
