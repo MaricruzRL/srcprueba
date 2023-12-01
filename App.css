@@ -144,7 +144,6 @@
   margin: 0vw 3vw 0 3vw;
   border-radius: 3rem;
   margin-top: 1.5vw;
-  overflow-y: auto;
 
 
 
@@ -370,6 +369,7 @@
   /* Habilita el scroll vertical cuando sea necesario */
 }
 
+
 .contenido__preguntas {
   display: flex;
   flex-direction: row;
@@ -402,10 +402,6 @@
 }
 
 
-.informacion{
-  overflow-y: auto;
-
-}
 
 .informacion__tabla {
   display: flex;
@@ -771,6 +767,7 @@
       overflow-y: auto;
       /* Habilita el scroll vertical cuando sea necesario */
     }
+    
 
     .subiranteproyecto__upload{
       border: solid black;
@@ -843,6 +840,15 @@
   background-color: red;
   color: white;
   
+}
+
+
+.contenido_general{
+  overflow-y: scroll;
+ display: flex;
+ flex-direction: column;
+ max-height: 70vh;
+
 }
 
 
