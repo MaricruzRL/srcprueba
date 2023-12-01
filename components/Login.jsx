@@ -52,7 +52,6 @@ const Login = () => {
     <p>©2023 Instituto Tecnológico del Istmo</p>
       {/*props.children*/}
     </div>
-    {/* Fin del nuevo espacio */}
   </div>
   );
 };
